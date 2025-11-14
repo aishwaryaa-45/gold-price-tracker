@@ -3,7 +3,7 @@
 This project automatically tracks **24K retail gold prices per 10g** for a selected city, stores historical data, analyzes trends, generates insight, and sends **daily updates to Telegram**.
 
 ## ✅ Features
-- Fetches **real retail gold rate per 10g** (GoodReturns source — stable & reliable)
+- Fetches **real retail gold rate per 10g**
 - Stores historical prices in **SQLite**
 - Generates **daily trend graphs**
 - Uses **Groq LLaMA 3.1-8B model** to provide market insight
