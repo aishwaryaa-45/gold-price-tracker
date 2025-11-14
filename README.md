@@ -27,7 +27,7 @@ This bot tracks price movement objectively — without guesswork — and notifie
 | Visualization | `matplotlib` |
 | AI Analysis | Groq LLaMA 3.1 models (`groq` Python client) |
 | Alerts | Telegram Bot API |
-| Automation | Windows Task Scheduler (or cron) |
+| Automation | Windows Task Scheduler  |
 
 ## 📂 Project Structure
 price-tracker/
