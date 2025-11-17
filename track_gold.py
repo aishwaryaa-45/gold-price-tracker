@@ -16,7 +16,7 @@ for item in products:
     city = product_name.split("_")[1] if "_" in product_name else product_name.replace("Gold_", "")
 
     try:
-        price = fetch_gold_price(city)
+        price = fetch_gold_price()
         save_price(product_name, "Retail", price, str(date.today()))
         print(f"✅ Saved: {product_name} = {price}")
     except Exception as e:
